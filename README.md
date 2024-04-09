@@ -12,4 +12,6 @@ Explore data related to bike share systems for three major cities in the United 
 ### Files used
 bikeshare.py
 README.md
-
+chicago.csv
+new_york_city.csv
+washington.csv
