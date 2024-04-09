@@ -136,7 +136,6 @@ def trip_duration_stats(df):
     total_travel_time_minutes = (total_travel_time_seconds % 3600) // 60
     print("Total travel time:", total_travel_time_hours, "hours and", total_travel_time_minutes, "minutes")
 
-
     # Display mean travel time
     mean_travel_time_seconds = df['Trip Duration'].mean()
     mean_travel_time_minutes = mean_travel_time_seconds // 60
@@ -171,7 +170,7 @@ def user_stats(df):
         print("Gender stat can not be analyze because Gender is not exist in data frame")
 
     try:
-         # Display earliest, most recent, and most common year of birth
+        # Display earliest, most recent, and most common year of birth data bikeshare
         earliest_year_of_birth = df['Birth Year'].min()
         print("Earliest year of birth:", int(earliest_year_of_birth))
 
